@@ -186,7 +186,8 @@ export default Vue.extend({
       if (this.tabulator) this.tabulator.destroy()
       this.tabulator = new TabulatorFull(this.$refs.tablePartitions, {
         columns: this.tableColumns,
-        layout: 'fitColumns',
+        layout: 'fitData',
+        movableColumns: true,
         columnDefaults: {
           title: '',
           tooltip: true,

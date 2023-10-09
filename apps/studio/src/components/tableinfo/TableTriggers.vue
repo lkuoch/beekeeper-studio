@@ -98,7 +98,8 @@ export default {
         maxInitialWidth: globals.maxColumnWidthTableInfo,
       },
       placeholder: "No triggers",
-      layout: 'fitColumns'
+      movableColumns: true,
+      layout: 'fitData',
 
 
     })

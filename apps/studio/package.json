@@ -20,7 +20,7 @@
     "postinstall": "electron-builder install-app-deps",
     "postuninstall": "electron-builder install-app-deps"
   },
-  "main": "background.js",
+  "main": "./dist_electron/bundled/background.js",
   "dependencies": {
     "@aws-sdk/client-redshift": "^3.145.0",
     "@electron/remote": "^2.0.9",

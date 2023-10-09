@@ -377,7 +377,8 @@ export default Vue.extend({
           headerSort: false,
         },
         placeholder: "No Relations",
-        layout: 'fitColumns',
+        movableColumns: true,
+        layout: 'fitData',
         height: 'auto',
       })
       this.newRows = []

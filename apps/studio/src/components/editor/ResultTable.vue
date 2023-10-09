@@ -222,6 +222,7 @@
         columns: this.tableColumns, //define table columns
         height: this.actualTableHeight,
         nestedFieldSeparator: false,
+        movableColumns: true,
 
         clipboard: true,
         keybindings: {

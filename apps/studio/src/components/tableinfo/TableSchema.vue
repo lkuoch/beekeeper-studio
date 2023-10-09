@@ -460,7 +460,8 @@ export default Vue.extend({
       // TODO: a loader would be so cool for tabulator for those gnarly column count tables that people might create...
       this.tabulator = new TabulatorFull(this.$refs.tableSchema, {
         columns: this.tableColumns,
-        layout: 'fitColumns',
+        layout: 'fitData',
+        movableColumns: true,
         columnDefaults: {
           title: '',
           tooltip: true,

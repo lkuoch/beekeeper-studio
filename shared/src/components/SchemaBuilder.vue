@@ -234,13 +234,14 @@ export default Vue.extend({
       data: initial,
       columns: this.tableColumns,
       movableRows: this.editable,
+      movableColumns: true,
       columnDefaults: {
         title: '',
         resizable: false,
         minWidth: 56,
         headerSort: false
       },
-      layout: 'fitColumns',
+      layout: 'fitData',
       height: this.tableHeight
     })
     // this.getData(!!this.initialEmit)

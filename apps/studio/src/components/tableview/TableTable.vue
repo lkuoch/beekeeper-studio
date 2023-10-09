@@ -964,6 +964,8 @@ export default Vue.extend({
         paginationButtonCount: 0,
         initialSort: this.initialSort,
         initialFilter: this.initialFilters ?? [{}],
+        movableColumns: true,
+        layout: 'fitData',
         ...this.persistenceOptions,
 
         // callbacks
